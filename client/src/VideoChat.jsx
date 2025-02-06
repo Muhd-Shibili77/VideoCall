@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import Peer from "peerjs";
 
-const socket = io("https://videocall-lved.onrender.com");
+const socket = io("https://videocall-5s5o.onrender.com");
 
 const VideoChat = () => {
   const [peerId, setPeerId] = useState("");
